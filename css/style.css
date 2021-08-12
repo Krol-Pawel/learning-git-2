@@ -1,0 +1,10 @@
+.text {
+    background-color: rgb(81, 255, 0);
+    margin: 5px 0;
+    padding: 0%;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
