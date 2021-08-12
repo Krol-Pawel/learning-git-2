@@ -8,3 +8,8 @@
     margin: auto;
     text-align: center;
 }
+
+.title {
+    font-size: 25px;
+    color: blue;
+}
