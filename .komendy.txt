@@ -1,34 +1,32 @@
-Królowie@LAPTOP-H7NSF4UQ MINGW64 ~/Bootcamp/learning-git-2 (master)
-$ npx html-validate
-html-validate-5.2.1
-Usage: html-validate [OPTIONS] [FILENAME..] [DIR..]
+Królowie@LAPTOP-H7NSF4UQ MINGW64 ~/Kodilla/learning-git-2 (master)
+$ npm install -g html-validate --save-dev
 
-Common options:
-      --ext=STRING               specify file extensions (commaseparated).
-  -f, --formatter=FORMATTER      specify the formatter to use.
-      --max-warnings=INT         number of warnings to trigger nonzero exit code
-      --rule=RULE:SEVERITY       set additional rule, use comma separator for
-                                 multiple.
-      --stdin                    process markup from stdin.
-      --stdin-filename=STRING    specify filename to report when using stdin
+added 59 packages, and audited 60 packages in 5s
 
-Miscellaneous:
-  -c, --config=STRING            use custom configuration file.
-      --init                     initialize project with a new configuration
-      --print-config             output configuration for given file.
-  -h, --help                     show help.
-      --version                  show version.
+4 packages are looking for funding
+  run `npm fund` for details
 
-Debugging options:
-      --dump-events              output events during parsing.
-      --dump-source              output post-transformed source data.
-      --dump-tokens              output tokens from lexing stage.
-      --dump-tree                output nodes from the dom tree.
+found 0 vulnerabilities
 
-Formatters:
+Królowie@LAPTOP-H7NSF4UQ MINGW64 ~/Kodilla/learning-git-2 (master)
+$ html-validate *.html
 
-Multiple formatters can be specified with a comma-separated list,
-e.g. "json,checkstyle" to enable both.
+Królowie@LAPTOP-H7NSF4UQ MINGW64 ~/Kodilla/learning-git-2 (master)
+$ git add . && git commit -m "validate-html"
+[master 9a73a3d] validate-html
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ rename .komendy => .komendy.txt (100%)
+ rename komendy.txt.txt => komendy.txt (100%)
 
-To capture output to a file use "formatter=/path/to/file",
-e.g. "checkstyle=dist/html-validate.xml"
+Królowie@LAPTOP-H7NSF4UQ MINGW64 ~/Kodilla/learning-git-2 (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 242 bytes | 48.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:jihad89/learning-git-2.git
+   960767f..9a73a3d  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
